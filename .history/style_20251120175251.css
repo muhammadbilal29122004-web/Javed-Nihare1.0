@@ -414,12 +414,11 @@ img {
 }
 
 /* Mini cart / product showcase styles (matches provided reference) */
-.mini-cart{width:100%;padding:28px 0;background:transparent}
-.mini-cart-inner{width:100%;max-width:none;padding:0 18px;display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.mini-cart{padding:28px 24px;background:transparent}
+.mini-cart-inner{max-width:1600px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
 .mini-card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 12px 30px rgba(0,0,0,0.06);position:relative;display:flex;flex-direction:column}
 .mini-card-title{position:absolute;left:0;right:0;top:0;padding:12px 14px;background:linear-gradient(180deg,rgba(0,0,0,0.45),rgba(0,0,0,0));color:#fff;font-weight:700;z-index:2;border-top-left-radius:12px;border-top-right-radius:12px}
 .mini-card img{width:100%;height:220px;object-fit:cover}
-.mini-card-caption{padding:10px 14px;color:#333;font-size:14px;line-height:1.3}
 .mini-card-footer{display:flex;align-items:center;justify-content:space-between;padding:10px 12px;background:transparent}
 .price-pill{background:#fff;padding:6px 10px;border-radius:999px;box-shadow:0 6px 18px rgba(0,0,0,0.08);font-weight:700}
 .mini-add{background:#f3a015;border:none;color:#fff;padding:8px 12px;border-radius:10px;font-weight:700;cursor:pointer}
